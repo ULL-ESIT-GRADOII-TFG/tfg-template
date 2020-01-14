@@ -48,15 +48,11 @@ Si no hay fallos, la estructura que le quede debería ser similar a esta:
 
 ```
 [/tmp/tfg-andres-calimero(master)]$ tree
+~/.../TFG/tfg-andres-calimero-garcia-perez(master)]$ tree
 .
 ├── README.md
-├── package.json
 ├── tfg-andres-calimero-memoria
-│   ├── README.md
-│   ├── package.json
-│   └── proyecto
-│       ├── ANTEPROYECTO\ TFG\ EINTRODUCCION.pdf
-│       └── Modelo_Proyecto_TFG_v.2.0\ (2).doc
+│   └── README.md
 └── tfg-andres-calimero-software
     └── README.md
 ```
