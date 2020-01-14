@@ -1,0 +1,24 @@
+{
+  "name": "tfg-kathrina-arrocha-umpierrez",
+  "version": "1.0.0",
+  "description": "Tablero Kanban para seguimiento del proyecto: https://github.com/PAL-ULL/tfg-kathrina-arrocha-umpierrez/projects/1",
+  "main": "index.js",
+  "scripts": {
+    "pull-sub": "git submodule foreach --recursive 'git pull origin master'",
+    "push-sub": "npm run commit-sub; git submodule foreach --recursive 'git push origin master'",
+    "init": "git submodule init && git submodule update",
+    "commit-sub": "git submodule foreach --recursive 'git commit -am working || :'",
+    "push": "git commit -am working && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PAL-ULL/tfg-kathrina-arrocha-umpierrez.git"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez-Leon <casiano.rodriguez.leon@gmail.com> (https://github.com/crguezl)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PAL-ULL/tfg-kathrina-arrocha-umpierrez/issues"
+  },
+  "homepage": "https://github.com/PAL-ULL/tfg-kathrina-arrocha-umpierrez#readme"
+}
