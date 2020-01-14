@@ -30,7 +30,7 @@ Supongo que tiene node.js instalado. Ejecute:
 ```
 [/tmp/tfg-andres-calimero(master)]$ npm run init
 ```
-Esto debería sincronizar los sub módulos produciendo una saldia como esta:
+Esto debería sincronizar los sub módulos produciendo una salida como esta:
 
 ```
 > tfg-andres-calimero@1.0.0 init /private/tmp/tfg-andres-calimero
