@@ -61,7 +61,7 @@ Si no hay fallos, la estructura que le quede debería ser similar a esta:
 
 En este tablero se establecen las reuniones, incidencias y objetivos globales al TFG
 
-* [Tablero Kanban para seguimiento del proyecto](https://github.com/PAL-ULL/tfg-andres-calimero/projects/1) 
+* [Tablero Kanban para seguimiento del proyecto](https://github.com/PAL-ULL/tfg-andres-calimero-memoria/projects/1) 
 * [Acerca de los tableros de proyecto](https://help.github.com/es/github/managing-your-work-on-github/about-project-boards)
 
 Posiblemente deberíamos considerar la posiblidad de tableros Kanban independientes para la memoria y el software
