@@ -8,7 +8,8 @@
     "push-sub": "npm run commit-sub; git submodule foreach --recursive 'git push origin master'",
     "init": "git submodule init && git submodule update",
     "commit-sub": "git submodule foreach --recursive 'git commit -am working || :'",
-    "push": "git commit -am working && git push"
+    "push": "git commit -am working && git push",
+    "remove-submodule": " git submodule deinit -f -- a/submodule &&  rm -rf .git/modules/a/submodule && git rm -f a/submodule"
   },
   "repository": {
     "type": "git",
