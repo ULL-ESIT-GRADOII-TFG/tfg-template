@@ -1,4 +1,4 @@
-# TFG de Andrés Calimero García Pérez
+# TFG de NOMBRE-ALUMNO APELLIDO1 APELLIDO2
 
 ## Instruciones Generales para el Uso de este Repo
 
@@ -9,8 +9,8 @@ Siga estos pasos:
 Clone el repo principal:
 
 ```
-[/tmp]$ git clone git@github.com:PAL-ULL/tfg-andres-calimero.git
-Cloning into 'tfg-andres-calimero'...
+[/tmp]$ git clone git@github.com:PAL-ULL/tfg-nombre-apellidos.git
+Cloning into 'tfg-nombre-apellidos'...
 remote: Enumerating objects: 29, done.
 remote: Counting objects: 100% (29/29), done.
 remote: Compressing objects: 100% (19/19), done.
@@ -22,46 +22,46 @@ Resolving deltas: 100% (13/13), done.
 Sitúese en la carpeta del repo:
 
 ```
-[/tmp]$ cd tfg-andres-calimero/
+[/tmp]$ cd tfg-nombre-apellidos/
 ```
 
 Supongo que tiene node.js instalado. Ejecute:
 
 ```
-[/tmp/tfg-andres-calimero(master)]$ npm run init
+[/tmp/tfg-nombre-apellidos(master)]$ npm run init
 ```
 Esto debería sincronizar los sub módulos produciendo una salida como esta:
 
 ```
-> tfg-andres-calimero@1.0.0 init /private/tmp/tfg-andres-calimero
+> tfg-nombre-apellidos@1.0.0 init /private/tmp/tfg-nombre-apellidos
 > git submodule init && git submodule update
 
-Submodule 'tfg-andres-calimero-memoria' (git@github.com:PAL-ULL/tfg-andres-calimero-memoria.git) registered for path 'tfg-andres-calimero-memoria'
-Submodule 'tfg-andres-calimero-software' (git@github.com:PAL-ULL/tfg-andres-calimero-software.git) registered for path 'tfg-andres-calimero-software'
-Cloning into '/private/tmp/tfg-andres-calimero/tfg-andres-calimero-memoria'...
-Cloning into '/private/tmp/tfg-andres-calimero/tfg-andres-calimero-software'...
-Submodule path 'tfg-andres-calimero-memoria': checked out 'b4c91ce3a50ff038713430d804983fd5cb68b6f5'
-Submodule path 'tfg-andres-calimero-software': checked out '8dad8a54d408b64afa6a143509d0e20375ddc997'
+Submodule 'tfg-nombre-apellidos-memoria' (git@github.com:PAL-ULL/tfg-nombre-apellidos-memoria.git) registered for path 'tfg-nombre-apellidos-memoria'
+Submodule 'tfg-nombre-apellidos-software' (git@github.com:PAL-ULL/tfg-nombre-apellidos-software.git) registered for path 'tfg-nombre-apellidos-software'
+Cloning into '/private/tmp/tfg-nombre-apellidos/tfg-nombre-apellidos-memoria'...
+Cloning into '/private/tmp/tfg-nombre-apellidos/tfg-nombre-apellidos-software'...
+Submodule path 'tfg-nombre-apellidos-memoria': checked out 'b4c91ce3a50ff038713430d804983fd5cb68b6f5'
+Submodule path 'tfg-nombre-apellidos-software': checked out '8dad8a54d408b64afa6a143509d0e20375ddc997'
 ```
 
 Si no hay fallos, la estructura que le quede debería ser similar a esta:
 
 ```
-[/tmp/tfg-andres-calimero(master)]$ tree
-~/.../TFG/tfg-andres-calimero-garcia-perez(master)]$ tree
+[/tmp/tfg-nombre-apellidos(master)]$ tree
+~/.../TFG/tfg-nombre-apellidos-garcia-perez(master)]$ tree
 .
 ├── README.md
-├── tfg-andres-calimero-memoria
+├── tfg-nombre-apellidos-memoria
 │   └── README.md
-└── tfg-andres-calimero-software
+└── tfg-nombre-apellidos-software
     └── README.md
 ```
 
-### [Tablero Kanban para seguimiento del proyecto](https://github.com/PAL-ULL/tfg-andres-calimero-memoria/projects/1) 
+### [Tablero Kanban para seguimiento del proyecto](https://github.com/PAL-ULL/tfg-nombre-apellidos-memoria/projects/1) 
 
 En este tablero se establecen las reuniones, incidencias y objetivos globales al TFG
 
-* [Tablero Kanban para seguimiento del proyecto](https://github.com/PAL-ULL/tfg-andres-calimero-memoria/projects/1) 
+* [Tablero Kanban para seguimiento del proyecto](https://github.com/PAL-ULL/tfg-nombre-apellidos-memoria/projects/1) 
 * [Acerca de los tableros de proyecto](https://help.github.com/es/github/managing-your-work-on-github/about-project-boards)
 
 Posiblemente deberíamos considerar la posiblidad de tableros Kanban independientes para la memoria y el software
@@ -71,8 +71,8 @@ Posiblemente deberíamos considerar la posiblidad de tableros Kanban independien
 Para facilitarle la labor he dejado algunas tareas de control de versiones en el `package.json`:
 
 ```
-[~/.../TFG/tfg-andres-calimero(master)]$ npm run
-Scripts available in tfg-andres-calimero via `npm run-script`:
+[~/.../TFG/tfg-nombre-apellidos(master)]$ npm run
+Scripts available in tfg-nombre-apellidos via `npm run-script`:
   pull-sub
     git submodule foreach --recursive 'git pull origin master'
   push-sub
@@ -88,17 +88,17 @@ Scripts available in tfg-andres-calimero via `npm run-script`:
 #### Pull all subrepos
 
 ```
-[~/.../TFG/tfg-andres-calimero(master)]$ npm run pull-sub
+[~/.../TFG/tfg-nombre-apellidos(master)]$ npm run pull-sub
 
-> tfg-andres-calimero@1.0.0 pull-sub /Users/casiano/local/src/TFG/tfg-andres-calimero
+> tfg-nombre-apellidos@1.0.0 pull-sub /Users/casiano/local/src/TFG/tfg-nombre-apellidos
 > git submodule foreach --recursive 'git pull origin master'
 
-Entering 'tfg-andres-calimero-memoria'
-From github.com:PAL-ULL/tfg-andres-calimero-memoria
+Entering 'tfg-nombre-apellidos-memoria'
+From github.com:PAL-ULL/tfg-nombre-apellidos-memoria
  * branch            master     -> FETCH_HEAD
 Already up to date.
-Entering 'tfg-andres-calimero-software'
-From github.com:PAL-ULL/tfg-andres-calimero-software
+Entering 'tfg-nombre-apellidos-software'
+From github.com:PAL-ULL/tfg-nombre-apellidos-software
  * branch            master     -> FETCH_HEAD
 Already up to date.
 ```
@@ -106,17 +106,17 @@ Already up to date.
 #### Commit all sub repos
 
 ```
-[~/.../TFG/tfg-andres-calimero(master)]$ npm run commit-sub
+[~/.../TFG/tfg-nombre-apellidos(master)]$ npm run commit-sub
 
-> tfg-andres-calimero@1.0.0 commit-sub /Users/casiano/local/src/TFG/tfg-andres-calimero
+> tfg-nombre-apellidos@1.0.0 commit-sub /Users/casiano/local/src/TFG/tfg-nombre-apellidos
 > git submodule foreach --recursive 'git commit -am working || :'
 
-Entering 'tfg-andres-calimero-memoria'
+Entering 'tfg-nombre-apellidos-memoria'
 On branch master
 Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
-Entering 'tfg-andres-calimero-software'
+Entering 'tfg-nombre-apellidos-software'
 On branch master
 Your branch is up to date with 'origin/master'.
 ```
@@ -134,9 +134,9 @@ un macro-repo que contiene los  repos acoplados.
 Este repo contiene dos submódulos:
 
 ```
-[~/.../TFG/tfg-andres-calimero(master)]$ git submodule 
- 443c98999fcd68b883b622d92068c5aba7f20a5c tfg-andres-calimero-memoria (heads/master)
- 8dad8a54d408b64afa6a143509d0e20375ddc997 tfg-andres-calimero-software (heads/master)
+[~/.../TFG/tfg-nombre-apellidos(master)]$ git submodule 
+ 443c98999fcd68b883b622d92068c5aba7f20a5c tfg-nombre-apellidos-memoria (heads/master)
+ 8dad8a54d408b64afa6a143509d0e20375ddc997 tfg-nombre-apellidos-software (heads/master)
 ```
 
 #### Ejemplo de uso de submódulos
