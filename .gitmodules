@@ -1,0 +1,6 @@
+[submodule "tfg-andres-calimero-memoria"]
+	path = tfg-andres-calimero-memoria
+	url = git@github.com:PAL-ULL/tfg-andres-calimero-memoria.git
+[submodule "tfg-andres-calimero-software"]
+	path = tfg-andres-calimero-software
+	url = git@github.com:PAL-ULL/tfg-andres-calimero-software.git
